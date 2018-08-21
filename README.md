@@ -122,8 +122,8 @@ Please note: md5 hashes will not be generated when using tempFiles
 
 ```javascript
 app.use(fileUpload({
-    useTempFiles : true,
-    tempFileDir : '/tmp/'
+    useTempFiles: true,
+    tempFilePath: '/tmp/'
 }));
 ```
 
